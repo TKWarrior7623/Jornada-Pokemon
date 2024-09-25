@@ -18,21 +18,21 @@ button { /* estilizando os bottões da página */
     font-family: "Pixelify Sans", sans-serif;
 }
 
-.passo {
+.passo { /* esconde os passos que não estão em uso agora */
     display: none;
 }
 
-.passo.ativo {
+.passo.ativo { /* mostra o passo com a classe "ativo" */
     display: block;
 }
 
-.main {
+.main { /* Justificação dos elementos em tela  */
     text-align: center;
     max-width: 90%;
     max-height: 90%;
 }
 
-.img {
+.img { /* disposição e tamanho das imagens */
     display: flex;
     max-height: 100px;
     max-width: 90%;
