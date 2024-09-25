@@ -1,0 +1,106 @@
+<!-- Leonardo Takeshiro Souza Toyama 3D 22/09/2024 -->
+
+<!DOCTYPE html> <!-- pré-definições de uma página html -->
+<html lang="pt-br"> <!-- pré-definições de uma página html -->
+<head>
+    <meta charset="UTF-8"> <!-- pré-definições de uma página html -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- pré-definições de uma página html -->
+    <link rel="stylesheet" href="style.css"> <!-- linkando o documento .css com o html -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Link das Fontes -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Link das Fontes -->
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"> <!-- Link das Fontes -->
+    <title>Uma Aventura Pokémon</title> <!-- Título da página -->
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0"> <!-- Criação do Primeiro Passo -->
+            <img src="img/cenario-passo0.png" alt="">
+            <p> Você é um garoto de 10 anos que vive na Cidade de Pallet. Hoje é o dia em que você recebe seu primeiro Pokémon do Professor Oak. Seu objetivo: conquistar as oito insígnias e se tornar o Campeão da Liga Pokémon!</p>
+            <button class="btn-proximo" data-proximo="1">Começar a Jornada!</button>
+            <button class="btn-proximo" data-proximo="2">Não Quero</button>
+        </div>
+        
+        
+        <div class="passo" id="passo-1"> <!-- Criação do Segundo Passo -->
+            <img src="img/cenario-passo1.png" alt="">
+            <p> No laboratório do Professor, você tem três opções: </p>
+            <button class="btn-proximo" data-proximo="3">Charmander (Fogo)</button>
+            <button class="btn-proximo" data-proximo="3">Bulbasaur (Planta/Veneno)</button>
+            <button class="btn-proximo" data-proximo="3">Squirtle (Água)</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Você decide que não está pronto o suficiente para tal responsabilidade e fica em casa, com um sentimento ruim de culpa misturado com angústia... </p>
+        </div>
+        
+       
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3.1.png" alt=""> <img src="img/cenario-passo3.2.png" alt="">
+            <p> Agora, com seu companheiro de aventura, sua Jornada Pokémon está só começando!! </p>
+            <p> Para seguir seu caminho rumo ao primeiro ginásio Pokémon em Pewter City, você tem duas opções de caminho, passar por Viridian City ou pela Viridian Forest. </p>
+            <p> Qual sua escolha? </p>
+            <button class="btn-proximo" data-proximo="4">Ir por Viridian City</button>
+            <button class="btn-proximo" data-proximo="5">Ir por Viridian Forest</button>
+        </div>
+
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo3.1.png" alt="">
+            <p> Ao escolher ir por Viridian City, seu Pokémon ganha uma quantidade boa de experiência, mas não consegue evoluir ainda. </p>
+            <p> Além disso, você conseguiu capturar um pidgey e evoluiu-o para pidgeotto, que será de grande ajuda no futuro! </p>
+            <button class="btn-proximo" data-proximo="6">Seguir Rumo a Pewter City</button>
+        </div>
+
+
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo3.2.png" alt="">
+            <p> Ao escolher ir por Viridian Forest, seu Pokémon ganha muita experiência, conseguindo assim evoluir para o segundo estágio!! </p>
+            <p> Além disso, você conseguiu capturar um Caterpie e evoluiu-o para Metapod, que não será de grande ajuda por enquanto... </p>
+            <button class="btn-proximo" data-proximo="6">Seguir Rumo a Pewter City</button>
+        </div>
+
+
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6.1.png" alt="">
+            <p> Em Pewter City, você se depara com o seu primeiro ginásio, o Ginásio de Brock!! </p>
+            <p> Você se sente preparado, mas Brock parece ter muita confiança e mais experiência que você, pois já está há mais tempo no ramo. </p>
+            <p> O time de Brock é composto por: Geodude e Onix </p>
+            <button class="btn-proximo" data-proximo="7">Tentar lutar com garra e afinco!</button>
+            <button class="btn-proximo" data-proximo="8">Batalhar sem esperanças, pois seus Pokémon ainda estão fracos...</button>
+        </div>
+
+
+        <div class="passo" id="passo-7">
+            <p> Você luta com confiança e GANHA de Brock, conquistando sua primeira insígnia!! </p>
+            <p> Brock fica surpreso com o seu talento e garra, e deseja-o boa sorte em sua Jornada. </p>
+            <p> Brock também te lembra que o próximo ginásio se encontra em Cerulean City. </p>
+            <button class="btn-proximo" data-proximo="9">Continua na próxima Temporada...</button>
+        </div>
+    
+        <div class="passo" id="passo-8">
+            <p> Você batalha sem confiança em seus parceiros Pokémon e PERDE de Brock... </p>
+            <p> Brock se decepciona, pois exergou em você um potencial muito grande em se tornar o grande Campeão da Liga Pokémon! </p>
+            <p> Brock lhe dá duas opções: </p>
+            <button class="btn-proximo" data-proximo="10">Desistir dos seus sonhos e voltar pra casa</button>
+            <button class="btn-proximo" data-proximo="7">Tentar novamente, mas dessa vez, com garra e afinco!!</button>
+        </div>
+
+
+        <div class="passo" id="passo-9">
+            <p> Obrigado por Jogar minha história intertiva =D </p>
+            <p> Isso ainda é um projeto em desenvolvimento e foi feito, por enquanto, somente para o curso do Alura Start no Ibrahim Nobre, mas se quiser uma continuação, eu estarei super feliz em terminar esssa Jornada!! </p>
+            <p> Sua Jornada ainda não acabou... </p>
+        </div>
+
+
+        <div class="passo" id="passo-10">
+            <p> Com a decepção de Brock, você se sente mal e desiste de seu sonho...</p>
+            <p> Seus Pokémon se sentem abandonados e passam a nunca mais verem a luz do dia, trancados em suas pokébolas...</p>
+            <p> Seus dias são mais longos e tristes, você sente que não cumpriu seu propósito, e se torna mais uma pessoa comum dentre milhões de outras... </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
